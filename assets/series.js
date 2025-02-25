@@ -79,7 +79,7 @@ function makingCards(series) {
  
              <div class="small-card-img-overlay">
                <h5 class="small-card-title">${movie.name?movie.name:"N/A"}</h5>
-               <p class="card-text">
+               <p class="card-text genres-text">
                ${movie.genres}
                </p>
                <p class="card-text"><small>${movie.rating?.average || "N/A"}:</small></p>
